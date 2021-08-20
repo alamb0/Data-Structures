@@ -1,6 +1,3 @@
-// $ g++ -std=c++11 -O2 -Wall dfs.cpp -o dfs
-// $ ./dfs
-
 #include <iostream>
 #include <string>
 
