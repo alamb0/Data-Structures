@@ -1,3 +1,6 @@
+// $ g++ -std=c++11 -O2 -Wall dfs.cpp -o dfs
+// $ ./dfs
+
 #include <iostream>
 #include <string>
 
@@ -30,6 +33,9 @@ int main()
 }
 
 // inorder dfs
+// 2
+// 1
+// 3
 void dfs(Node *root)
 {
     if (root != NULL)
