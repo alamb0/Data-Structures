@@ -12,3 +12,8 @@ g++ -std=c++11 -O2 -Wall dfs.cpp -o dfs
 ```bash
 python3 dfs.py
 ```
+
+# Go
+```bash
+go run dfs.go
+```
