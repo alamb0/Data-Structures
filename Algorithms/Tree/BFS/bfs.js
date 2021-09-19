@@ -14,10 +14,10 @@ const bfs = (root) => {
     const node = queue.shift();
     console.log(node.value);
 
-    if (node.left != null) {
+    if (node.left) {
       queue.push(node.left);
     }
-    if (node.right != null) {
+    if (node.right) {
       queue.push(node.right);
     }
   }
