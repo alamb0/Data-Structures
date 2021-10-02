@@ -12,12 +12,8 @@ function printTree(tree) {
     const left = tree[2 * i + 1] || null;
     const right = tree[2 * i + 2] || null;
 
-    if (left) {
-      console.log(left);
-    }
-    if (right) {
-      console.log(right);
-    }
+    console.log(left);
+    console.log(right);
   }
 }
 
