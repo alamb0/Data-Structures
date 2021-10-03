@@ -16,4 +16,3 @@ const insertionSort = (arr) => {
 
 const result = insertionSort(arr);
 console.log(result);
-console.log(result === arr.sort((a, b) => a - b));
