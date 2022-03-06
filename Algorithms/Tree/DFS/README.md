@@ -7,6 +7,10 @@ g++ -std=c++11 -O2 -Wall dfs.cpp -o dfs
 ```
 
 # Java
+```bash
+javac DFS.java
+java DFS.java
+```
 
 # Python
 ```bash
@@ -19,7 +23,7 @@ go run dfs.go
 ```
 
 # JavaScript
-```
+```bash
 node dfs.js
 ```
 
